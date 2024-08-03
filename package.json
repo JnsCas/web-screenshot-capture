@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Web Screenshot Capture",
   "scripts": {
+    "install": "etc/bin/install.sh",
     "start": "etc/bin/start.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
