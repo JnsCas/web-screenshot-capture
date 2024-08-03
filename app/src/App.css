@@ -1,0 +1,111 @@
+/*.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.DownloadLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7bac5;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.URLSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.URLSection input {
+    width: 200px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.ButtonSection button {
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ButtonSection button:hover {
+    background-color: #0056b3;
+}
+
+.ButtonSection button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.DownloadLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.DownloadLinks ol {
+    margin: 0;
+    padding: 0;
+}
+
+.DownloadLinks ol li {
+    margin: 5px 0;
+}
+
+.DownloadLinks a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.DownloadLinks a:hover {
+    text-decoration: underline;
+}
+
+

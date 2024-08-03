@@ -1,0 +1,11 @@
+{
+  "name": "web-screenshot",
+  "version": "1.0.0",
+  "description": "Web Screenshot Capture",
+  "scripts": {
+    "start": "etc/bin/start.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JnsCas",
+  "license": "ISC"
+}
