@@ -3,6 +3,7 @@ const { ipcMain } = require('electron/main');
 const { join } = require('path');
 const { handleScreenshot } = require('./screenshot');
 const { closeBrowser } = require('./puppeteerUtils');
+require('dotenv').config();
 
 let mainWindow;
 

@@ -9,7 +9,19 @@ To set up and start the project, follow these steps:
    ```sh
    npm install
    ```
-3. Once the installation is complete, start the project by running: 
+3. Configure the `CHROME_EXECUTABLE_PATH` environment variable:
+- Open Google Chrome and navigate to `chrome://version`.
+- Copy the value of `Executable Path`.
+- Open the `.env` file located in the `app` directory.
+- Update the `CHROME_EXECUTABLE_PATH` variable with the copied path, making sure to enclose the value in double quotes (`"`):
+- Example: 
+  - ![chrome version example](example.png)
+  - The `.env` file should look something like this:
+    ```
+    CHROME_EXECUTABLE_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    ```
+
+4. Once the installation and environment configuration are complete, start the project by running: 
    ```sh
    npm start 
    ```

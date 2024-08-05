@@ -8,7 +8,7 @@ async function handleScreenshot(event, url, format) {
   try {
     const browser = await getBrowser();
     const page = await browser.newPage();
-    await page.goto(url);
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
 
     if (format === 'pdf') {
       response.buffer = await page.pdf();

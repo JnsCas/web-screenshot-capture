@@ -11,7 +11,7 @@ async function getBrowser() {
   browser = await puppeteer.launch({
     headless: true,
     defaultViewport: null,
-    executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+    executablePath: process.env.CHROME_EXECUTABLE_PATH,
   });
   return browser;
 }

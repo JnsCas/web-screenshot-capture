@@ -13,7 +13,7 @@ async function getScreenshotPdf(page) {
 export async function getScreenshot(url, format) {
   const browser = await puppeteerUtils.getBrowser()
   const page = await browser.newPage()
-  await page.goto(url)
+  await page.goto(url, { waitUntil: 'domcontentloaded' })
 
   let screenshot
   if (format === 'png') {
