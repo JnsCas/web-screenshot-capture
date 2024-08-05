@@ -1,4 +1,4 @@
-# Web Screenshot Capture
+![screenshot-1](screenshot-1.png)
 
 ## Installation and Starting the Project
 
