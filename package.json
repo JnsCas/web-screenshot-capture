@@ -5,7 +5,7 @@
   "scripts": {
     "install": "etc/bin/install.sh",
     "start": "etc/bin/start.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd app && npm test"
   },
   "author": "JnsCas",
   "license": "ISC"
